@@ -1,48 +1,138 @@
 {
 	"general": {
-		"sudah_menikah": false,
-		"sudah_bekerja": false,
-		"tempat_bekerja": "",
 		"email": "mxsuryadi@gmail.com",
 		"phone": "+6289-6112-49822"
 	},
 	"ketrampilan": {
 		"it": [
-			["Installasi Hardware dan Software", 90],
-			["Installasi Jaringan", 85],
-			["Microsoft Office", 80],
-			["Visual Basic .NET", 65],
-			["C#", 70],
-			["HTML, CSS (SASS), JS (jQuery)", 75],
-			["PHP (Slim Framework)", 75],
-			["Java (Android Studio, Kotlin)", 75],
-			["Python", 85],
-			["Git", 75],
-			["Linux", 80]
+			["C#", "Intermediate"],
+			["Git", "Intermediate"],
+			["Java", "Intermediate"],
+			["Adobe Photoshop", "Intermediate"],
+			["CorelDraw / Inkscape", "Intermediate"],
+			["PHP (Slim Framework)", "Intermediate"],
+			["Visual Basic (VB6 & .NET)", "Intermediate"],
+			["MAGIX Vegas (Video Editor)", "Intermediate"],
+			["Adobe Audition (Audio Editor)", "Intermediate"],
+			["Linux", "Advanced"],
+			["Microsoft Office", "Advanced"],
+			["Installasi Jaringan", "Advanced"],
+			["HTML, CSS (SASS), JS (jQuery)", "Advanced"],
+			["Installasi Hardware dan Software", "Advanced"],
+			["Web Programming (Flask Framework)", "Expert"],
+			["Android Studio (Kotlin)", "Expert"],
+			["Python", "Expert"]
 		],
 		"non_it": [
-			["Bermain Alat Musik Drum", 75],
-			["Pertukangan", 60],
-			["Las Busur (Arc Welding)", 55],
-			["Sablon", 85]
+			["Pertukangan (Kayu & Bangunan)", "Novice"],
+			["Las Busur (Arc Welding)", "Intermediate"],
+			["Sablon", "Advanced"]
 		]
 	},
 	"showcase": [
+		{
+			"year": "2021",
+			"title": "Moniku",
+			"tags": ["Web", "Android", "Kotlin", "Python"],
+			"img": ["moniku", 1],
+			"url": "https://moniku.app",
+			"article": "Aplikasi untuk mencatat pengeluaran dan pemasukan keuangan pribadi."
+		},
+		{
+			"year": "2021",
+			"title": "HSR - Manajemen Inventaris",
+			"tags": ["Web", "Python"],
+			"img": ["hsr_inventory", 1],
+			"url": "private",
+			"article": "Aplikasi yang digunakan untuk manajemen inventori pada perusahaan HSRCC Section 3."
+		},
+		{
+			"year": "2021",
+			"title": "HSR - Company Profile",
+			"tags": ["Web", "Python"],
+			"img": ["hsr_company_profile", 1],
+			"url": "https://www.hsr-section-3.com/",
+			"article": "Website company profile untuk perusahaan HSRCC Section 3."
+		},
 		{
 			"year": "2020",
 			"title": "Hewatsap",
 			"tags": ["Web", "Python"],
 			"img": ["hewatsap", 2],
-			"url": null,
-			"article": "Aplikasi yang digunakan untuk manajemen prospek calon customer, terintegrasi langsung dengan WhatsApp."
+			"url": "https://hewatsap.idayrus.com",
+			"article": "Aplikasi CRM yang digunakan untuk manajemen customer, terintegrasi langsung dengan WhatsApp."
 		},
 		{
 			"year": "2020",
-			"title": "Monitoring Pajak",
+			"title": "HSR - Laporan Harian HSE",
 			"tags": ["Web", "Python"],
-			"img": ["monitoring_pajak", 1],
-			"url": null,
-			"article": "Sebuah aplikasi yang digunakan untuk monitoring pajak pada perusahaan High Speed Railway Contractor Consortium (HSRCC)."
+			"img": ["hsr_daily_report", 1],
+			"url": "private",
+			"article": "Aplikasi yang digunakan untuk manajemen laporan harian health safety and environment pada perusahaan HSRCC Section 3."
+		},
+		{
+			"year": "2020",
+			"title": "HSR - Manajemen Karyawan",
+			"tags": ["Web", "Python"],
+			"img": ["hsr_employee", 1],
+			"url": "private",
+			"article": "Aplikasi yang digunakan untuk manajemen izin cuti karyawan pada perusahaan HSRCC Section 3."
+		},
+		{
+			"year": "2020",
+			"title": "HSR - Inspeksi Alat Berat",
+			"tags": ["Web", "Python"],
+			"img": ["hsr_inspection", 1],
+			"url": "private",
+			"article": "Aplikasi yang digunakan untuk manajemen inspeksi health safety and environment pada perusahaan HSRCC Section 3."
+		},
+		{
+			"year": "2020",
+			"title": "HSR - Manajemen Perizinan",
+			"tags": ["Web", "Python"],
+			"img": ["hsr_permit", 1],
+			"url": "private",
+			"article": "Aplikasi yang digunakan untuk manajemen perizinan pada perusahaan HSRCC Section 3."
+		},
+		{
+			"year": "2020",
+			"title": "HSR - Monitoring Pajak",
+			"tags": ["Web", "Python"],
+			"img": ["hsr_tax", 1],
+			"url": "private",
+			"article": "Aplikasi yang digunakan untuk monitoring pajak pada perusahaan HSRCC Section 3."
+		},
+		{
+			"year": "2019",
+			"title": "HSR - Monitoring Tagihan",
+			"tags": ["Web", "Python"],
+			"img": ["hsr_bill", 1],
+			"url": "private",
+			"article": "Aplikasi yang digunakan untuk monitoring tagihan pada perusahaan HSRCC Section 3."
+		},
+		{
+			"year": "2019",
+			"title": "Ultimate Chord",
+			"tags": ["Android", "Kotlin"],
+			"img": ["ultimate_chord", 4],
+			"url": "https://play.google.com/store/apps/details?id=com.idayrus.uchord",
+			"article": "Aplikasi untuk browsing kunci gitar berbahasa Inggris, Indonesia, dan Malaysia."
+		},
+		{
+			"year": "2019",
+			"title": "LovaPOS Android",
+			"tags": ["Android", "Kotlin"],
+			"img": ["lovapos_android", 1],
+			"url": "https://play.google.com/store/apps/details?id=com.lovapos.client.pos",
+			"article": "Aplikasi kasir atau point of sale berbasis android."
+		},
+		{
+			"year": "2019",
+			"title": "LovaPOS Server",
+			"tags": ["Web", "Python"],
+			"img": ["lovapos_server", 3],
+			"url": "https://www.lovapos.com/",
+			"article": "Aplikasi untuk back office atau manajemen produk aplikasi kasir."
 		},
 		{
 			"year": "2019",
@@ -57,7 +147,7 @@
 			"title": "Jangklik - Auto Clicker",
 			"tags": ["Desktop", "C#"],
 			"img": ["jangklik", 4],
-			"url": null,
+			"url": "https://www.idayrus.com/jangklik/",
 			"article": "Saya buat software ini karena diluar sana saya belum menemukan software auto clicker yang melakukan click berdasarkan pencarian gambar."
 		},
 		{
@@ -73,7 +163,7 @@
 			"title": "QR Ticketing System",
 			"tags": ["Web", "Python", "Android"],
 			"img": ["tiket_kbk", 4],
-			"url": null,
+			"url": "private",
 			"article": "Aplikasi ticketing yang dibuat dengan framework Flask dan database MongoDB. Memanfaatkan teknologi QR Scanner untuk validasi tiket."
 		},
 		{
@@ -81,7 +171,7 @@
 			"title": "SMS Manager",
 			"tags": ["Web", "Python"],
 			"img": ["sms_manager", 8],
-			"url": null,
+			"url": "private",
 			"article": "SMS Manager atau SMS Blaster yang dibuat dengan framework Flask dan PostgreSQL. Aplikasi ini akan mengirimkan SMS via Gammu."
 		},
 		{
@@ -89,7 +179,7 @@
 			"title": "Bearhug Reminder",
 			"tags": ["Web", "Python"],
 			"img": ["bearhug_reminder", 3],
-			"url": null,
+			"url": "private",
 			"article": "Aplikasi untuk pengingat penagihan, dibuat dengan framework Flask dan MongoDB."
 		},
 		{
@@ -97,7 +187,7 @@
 			"title": "Dunia Garmindo",
 			"tags": ["Web", "Python", "Android"],
 			"img": ["dg", 7],
-			"url": null,
+			"url": "private",
 			"article": "Aplikasi ini dibuat untuk memanajemen produksi pada sebuah pabrik garmen di Solo. Dibuat dengan framework Flask dan database MongoDB."
 		},
 		{
@@ -151,18 +241,10 @@
 			"tags": ["Web", "VB6", "PHP"],
 			"img": ["idayrus", 9],
 			"url": null,
-			"article": "Dulu saat saya masih SMK, untuk mengisi data kehadiran, siswa harus mengisi tanda tangan pada buku absen. Proses ini memakan waktu lama dan tidak efisien. Maka dari itu saya coba menghubungi kepala jurusan untuk membuat aplikasi absen yang lebih efisien. Sebelumnya akan dipilih sistem sidik jari, namun teknologinya mahal dan tidak ramah pengguna. Saya mengusulkan untuk menggunakan barcode scanner dan disetujui."
+			"article": "Saat saya duduk di kelas 11 SMK, untuk mengisi data kehadiran, siswa harus mengisi tanda tangan pada buku absen. Proses ini memakan waktu lama dan tidak efisien. Maka dari itu saya coba menghubungi kepala jurusan untuk membuat aplikasi absen yang lebih efisien. Sebelumnya akan dipilih sistem sidik jari, namun teknologinya mahal dan tidak ramah pengguna. Saya mengusulkan untuk menggunakan barcode scanner dan disetujui."
 		},
 		{
 			"article": "Pada tahun <span style='color:#2196f3;'>2012</span> sampai <span style='color:#2196f3;'>2013</span>, saya disibukan oleh kegiatan bermain musik. Selain itu, PC saya yang berprosesor Intel Pentium 4 rusak karena overheat."
-		},
-		{
-			"year": "2011",
-			"title": "Esperoka Quiz",
-			"tags": ["Desktop", "VB6"],
-			"img": [],
-			"url": null,
-			"article": "Sebuah game kuis yang saya buat untuk membantu siswa belajar. Soal kuisnya saya ambil dari LKS. Dan jika jawaban salah, maka game akan diulang dari soal nomor 1. Maka dari itu, siswa menjadi hafal soal dan jawabannya. Sayangnya, aplikasi ini hilang karena harddisk pada komputer saya rusak, jadi tidak ada screenshot."
 		},
 		{
 			"year": "2011",
@@ -171,10 +253,18 @@
 			"img": ["obav", 5],
 			"url": "http://www.obav.net",
 			"url_off": true,
-			"article": "Ini adalah proyek pertama saya dalam dunia pemrograman. Saat itu saya masih SMP. Saya sebenarnya hanya menjadi UI Designer dan juga maintainer. Foundernya adalah Oji Setyawan yang saat itu masih SMK."
+			"article": "Saat saya duduk di kelas 7 SMP, saya bergabung kedalam tim pengembang ObAV Antivirus bersama Oji Setyawan yang saat itu masih SMK. Saya menjadi desainer grafis dan juga virus analyzer."
 		},
 		{
-			"article": "Sebenarnya masih banyak aplikasi atau proyek yang pernah saya buat pada rentang tahun 2011-2015. Tapi karena harddisk pada komputer lama saya rusak, mau tidak mau data aplikasi tersebut hilang. Sebelum itu saya belum mengenah Git, jadi data proyek hanya disimpan pada harddisk."
+			"year": "2011",
+			"title": "Esperoka Quiz",
+			"tags": ["Desktop", "VB6"],
+			"img": [],
+			"url": null,
+			"article": "Ini adalah proyek pertama saya dalam dunia pemrograman. Sebuah game kuis yang saya buat untuk membantu siswa belajar. Soal kuis diambil dari LKS. Dan jika jawaban salah, maka game akan diulang dari soal nomor 1. Maka dari itu, siswa menjadi hafal soal dan jawabannya. Sayangnya, aplikasi ini hilang karena harddisk pada komputer saya rusak, jadi tidak ada screenshot."
+		},
+		{
+			"article": "Banyak aplikasi atau proyek yang saya buat pada rentang tahun 2011-2015. Namun, karena harddisk komputer saya saat itu rusak maka aplikasi tersebut pun hilang. Saat itu saya belum mengenal Git, sehingga data proyek hanya disimpan pada harddisk."
 		}
 	]
 }

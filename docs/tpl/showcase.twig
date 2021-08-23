@@ -11,13 +11,19 @@
 							{% if item.title %}<h2 class="post-title">{{ item.title }}</h2>{% endif %}
 							{{ item.article|safe }}
 							{% if item.url %}
-							<div class="post-url">
-								{% if item.url_off %}
-									<a href="javascript:void(0);">{{ item.url }}</a><i class="text-muted">&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Offline</i>
-								{% else %}
-									<a href="{{ item.url }}" target="_blank">{{ item.url }}</a>
+								{% if 'http' in item.url %}
+									<div class="post-url">
+										{% if item.url_off %}
+											<a href="javascript:void(0);">{{ item.url }}</a><i class="text-muted">&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Offline</i>
+										{% else %}
+											<a href="{{ item.url }}" target="_blank">{{ item.url }}</a>
+										{% endif %}
+									</div>
+								{% elif item.url == 'private' %}
+									<div class="post-url">
+										<a href="javascript:void(0);"><i>Private Site</i></a>
+									</div>
 								{% endif %}
-							</div>
 							{% endif %}
 							{% if item.tags %}
 								<div>

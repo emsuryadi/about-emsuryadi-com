@@ -1,33 +1,23 @@
 <div class="col-lg-12">
-	<br /><hr /><br />
+	<br /><hr><br />
 	<h3><i class="icon-hand-grab-o"></i>&nbsp;&nbsp;Skills</h3>
 	Berikut adalah ketrampilan yang saya kuasai:<br /><br />
 	<div class="row">
 		<div class="col-md-6" style="margin-bottom:15px;">
 			<h4>Bidang IT</h4>
-			<table class="table">
-				<tbody>
-					{% for title, value in data.ketrampilan.it %}
-						<tr>
-							<td>{{ title }}</td>
-							<td style="width:50%"><div class="progress"><div class="progress-bar" role="progressbar" style="width: {{ value }}%;" aria-valuenow="{{ value }}" aria-valuemin="0" aria-valuemax="100"></div></div></td>
-						</tr>
-					{% endfor %}
-				</tbody>
-			</table>
+			<ul>
+				{% for title, value in data.ketrampilan.it %}
+					<li>{{ title }}<span class="px-2">&mdash;</span><span style="color:#666;">{{ value }}</span></li>
+				{% endfor %}
+			</ul>
 		</div>
 		<div class="col-md-6">
 			<h4>Bidang Non-IT</h4>
-			<table class="table">
-				<tbody>
-					{% for title, value in data.ketrampilan.non_it %}
-						<tr>
-							<td>{{ title }}</td>
-							<td style="width:50%"><div class="progress"><div class="progress-bar" role="progressbar" style="width: {{ value }}%;" aria-valuenow="{{ value }}" aria-valuemin="0" aria-valuemax="100"></div></div></td>
-						</tr>
-					{% endfor %}
-				</tbody>
-			</table>
+			<ul>
+				{% for title, value in data.ketrampilan.non_it %}
+					<li>{{ title }}<span class="px-2">&mdash;</span><span style="color:#666;">{{ value }}</span></li>
+				{% endfor %}
+			</ul>
 		</div>
 	</div>
 </div>
